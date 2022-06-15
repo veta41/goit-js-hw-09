@@ -1,11 +1,9 @@
-# goit-js-hw-08
+# goit-js-hw-09
 
 Проект собран с помощью parcel-project-template.
 
 Used libraries: 
 
-lodash.throttle,
+flatpickr ,
 
-SimpleLightbox,
-
-Vimeo Player
+notiflix
