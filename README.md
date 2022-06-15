@@ -4,6 +4,6 @@
 
 Used libraries: 
 
-flatpickr ,
+flatpickr,
 
 notiflix
