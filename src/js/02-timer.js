@@ -33,9 +33,9 @@ const options = {
         distance: '20px',
         fontSize: '16px',
       });
-      addDisabledAtr(refs.startBtn);
+      addDisabled(refs.startBtn);
     } else {
-      removeDisabledAtr(refs.startBtn);
+      removeDisabled(refs.startBtn);
     }
   },
 };
@@ -96,15 +96,15 @@ function convertMs(ms) {
   return { days, hours, minutes, seconds };
 }
 
-function addDisabledAtr(linkOnBtn) {
+function addDisabled(onLinkBtn) {
  
 
-  linkOnBtn.disabled = true;
+  onLinkBtn.disabled = true;
 }
 
-function removeDisabledAtr(linkOnBtn) {
+function removeDisabled(onLinkBtn) {
  
 
-  linkOnBtn.disabled = false;
+  onLinkBtn.disabled = false;
 }
 

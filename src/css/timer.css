@@ -3,9 +3,9 @@ body {
 }
 
 input {
- /* width: 600px; */
+
   height: 50px;
-  padding: 0 10px 0 10px;
+  padding: 0 10px ;
 
   background-color: ffffff;
   border: 1px solid #cccccc;
@@ -25,11 +25,7 @@ button:disabled {
   background-color: #e4e4e4;
 }
 
-button:hover,
-button:focus {
-  background-color: #adadad;
-  border: 2px solid #adadad;
-}
+
 
 .timer {
   display: flex;
@@ -42,7 +38,7 @@ button:focus {
   align-items: center;
 
   width: 100px;
-  padding: 10px 0 10px 0;
+  padding: 10px 0 ;
   margin-right: 20px;
   border: 1px solid #cccccc;
 }
