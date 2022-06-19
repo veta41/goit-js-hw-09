@@ -25,23 +25,28 @@ function onSubmitForm(e) {
       });
     delay += step;
   }
+  e.currentTarget.reset()
 }
 
 
 
 function createPromise(position, delay) {
-  const objPromise = {position, delay}
-  const shouldResolve = Math.random() > 0.3;
+ 
   return  new Promise((resolve, reject) => {
+
+    const objPromise = {position, delay}
+    const shouldResolve = Math.random() > 0.3;
+
     setTimeout(() => {
       if (shouldResolve) {
         resolve(objPromise);
       } else {
         reject(objPromise);
       }
-    });
-    }, delay)
-   
+    } , delay);
+    }); 
 }
  
+
+
 
